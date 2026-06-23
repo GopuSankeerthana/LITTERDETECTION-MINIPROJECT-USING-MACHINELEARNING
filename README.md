@@ -1,6 +1,31 @@
-# Litter Detection
-
-Detect litter in street/outdoor images using a trained Faster R-CNN model (TensorFlow).
+🚮 Litter Detection on Highways Using Machine Learning
+📌 Project Overview
+This project focuses on detecting litter on highways using Machine Learning and Deep Learning techniques. It combines CNN (Convolutional Neural Networks) for feature extraction and SVM (Support Vector Machine) for classification to identify litter from images.
+The goal is to support smart road monitoring systems and help maintain cleaner highways.
+🎯 Objectives
+Detect litter objects in highway images
+Classify images as litter or non-litter
+Improve road cleanliness monitoring using AI
+Reduce manual inspection efforts
+🧠 Technologies Used
+Python 🐍
+OpenCV
+NumPy & Pandas
+Scikit-learn
+TensorFlow / Keras (CNN)
+SVM (Support Vector Machine)
+Matplotlib
+🏗️ System Architecture
+Image Collection (Dataset of highway images)
+Image Preprocessing (resizing, normalization)
+Feature Extraction using CNN
+Classification using SVM
+Prediction Output (Litter / No Litter)
+📂 Dataset
+Images collected from highway environments
+Includes:
+Litter images (plastic, bottles, waste)
+Clean road images
 
 ## Quick start
 
